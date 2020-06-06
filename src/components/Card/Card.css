@@ -1,0 +1,36 @@
+.updateCard {
+    border: none transparent !important;
+    background-color: #292F33!important;
+    box-shadow: none !important;
+    height: 100%;
+}
+
+.updateCard .flex-sign {
+    margin-right: .5rem;
+    padding: 0!important;
+    min-width: 5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .25rem 0rem 0rem .25rem;
+}
+
+@media (max-width: 374px) {
+    .updateCard .flex-sign {
+        min-width: 3rem!important;
+    }
+}
+
+.updateCard .flex-fill {
+    -ms-flex: 1 1 auto!important;
+    flex: 1 1 auto!important;
+}
+
+.updateCard .case-number {
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1;
+}
