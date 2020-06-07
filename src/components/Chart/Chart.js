@@ -1,15 +1,12 @@
-import React, {useState, useEffect} from "react";
-import {Line, Bar} from "react-chartjs-2";
-import {MDBContainer} from "mdbreact";
+import React from "react";
+import {Line} from "react-chartjs-2";
 
 import './Chart.css';
-import {fetchDailyData} from "../../api";
 
 const colorTotal = '#dc3545';
 const colorActive = '#ffc107';
 const colorRecovered = '#28a745';
 const colorDeaths = '#6c757d';
-const colorFont = '#6c757d';
 
 const Chart = (props) => {
 
@@ -18,6 +15,7 @@ const Chart = (props) => {
         legend: false,
         scales: {
             xAxes: [{
+                display: false,
                 width: 2,
                 ticks: {
                     beginAtZero: false,
@@ -113,7 +111,6 @@ const Chart = (props) => {
 
     return (
         <div className="chartContainer">
-            {console.log(props.dailyData[0] ? props.dailyData.slice(-1)[0] : "")}
             {lineChart}
         </div>
     )

@@ -5,6 +5,7 @@ import {fetchData, fetchDailyData} from "../api";
 
 import UpdateCard from "../components/Card/Card";
 import Chart from "../components/Chart/Chart";
+import WorldMap from "../components/WorldMap/WorldMap";
 
 class Covid19 extends React.Component {
 
@@ -119,7 +120,9 @@ class Covid19 extends React.Component {
                     {/* Covid Summary */}
 
                     {/* Covid Map */}
-                    <MDBCol md="6" sm="12">World chart here</MDBCol>
+                    <MDBCol md="6" sm="12">
+                        <WorldMap />
+                    </MDBCol>
                     {/* Covid Map */}
                 </MDBRow>
             </MDBContainer>
