@@ -121,7 +121,7 @@ class Covid19 extends React.Component {
 
                     {/* Covid Map */}
                     <MDBCol md="6" sm="12">
-                        <WorldMap />
+                        <WorldMap summary={this.state.summary} regions={this.state.regions} />
                     </MDBCol>
                     {/* Covid Map */}
                 </MDBRow>
