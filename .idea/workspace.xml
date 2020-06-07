@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7bf933ed-78a3-4036-a33a-9df241ebdb4e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/WorldMap/WorldMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorldMap/WorldMap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Covid19.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Covid19.js" afterDir="false" />
@@ -43,6 +45,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -61,7 +64,7 @@
       <updated>1591335942699</updated>
       <workItem from="1591335946116" duration="25308000" />
       <workItem from="1591470208313" duration="7144000" />
-      <workItem from="1591546944112" duration="1879000" />
+      <workItem from="1591546944112" duration="12489000" />
     </task>
     <task id="LOCAL-00001" summary="Added minichart">
       <created>1591424052015</created>
@@ -91,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591546722892</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="World Map formula">
+      <created>1591548843948</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591548843948</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +112,8 @@
     <MESSAGE value="Added minichart" />
     <MESSAGE value="Chart data" />
     <MESSAGE value="World Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="World Map" />
+    <MESSAGE value="World Map formula" />
+    <option name="LAST_COMMIT_MESSAGE" value="World Map formula" />
   </component>
   <component name="WindowStateProjectService">
     <state x="512" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591424139889">
@@ -113,17 +124,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591506098443" />
-    <state x="368" y="8" key="CommitChangelistDialog2" timestamp="1591546721605">
+    <state x="368" y="8" key="CommitChangelistDialog2" timestamp="1591548842572">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="368" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591546721605" />
+    <state x="368" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591548842572" />
     <state x="637" y="306" key="Github.ShareDialog" timestamp="1591424060959">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="637" y="306" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1591424060959" />
-    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1591546724734">
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1591548846054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591546724734" />
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1591548846054" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1591562844001">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1591562844001" />
+    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup" timestamp="1591562237956">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591562237956" />
   </component>
 </project>

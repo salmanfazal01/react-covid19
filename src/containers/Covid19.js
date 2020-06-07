@@ -1,6 +1,8 @@
 import React from 'react';
 import {MDBCol, MDBContainer, MDBRow} from "mdbreact";
 
+import ReactTooltip from "react-tooltip";
+
 import {fetchData, fetchDailyData} from "../api";
 
 import UpdateCard from "../components/Card/Card";
@@ -14,7 +16,8 @@ class Covid19 extends React.Component {
         summary: {},
         change: {},
         regions: {},
-        dailyData: {}
+        dailyData: {},
+        tooltip: ''
     };
 
     async componentDidMount() {
@@ -27,6 +30,10 @@ class Covid19 extends React.Component {
             dailyData: dailyData
         });
     }
+
+    setTooltip = (tooltip) => {
+        this.setState({tooltip: tooltip});
+    };
 
     render() {
         return (
@@ -121,7 +128,10 @@ class Covid19 extends React.Component {
 
                     {/* Covid Map */}
                     <MDBCol md="6" sm="12">
-                        <WorldMap summary={this.state.summary} regions={this.state.regions} />
+                        <UpdateCard>
+                            <WorldMap summary={this.state.summary} regions={this.state.regions} setTooltip={this.setTooltip} />
+                            <ReactTooltip html={true} >{this.state.tooltip}</ReactTooltip>
+                        </UpdateCard>
                     </MDBCol>
                     {/* Covid Map */}
                 </MDBRow>

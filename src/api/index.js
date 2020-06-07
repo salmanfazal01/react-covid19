@@ -8,6 +8,7 @@ export const fetchData = async (country) => {
     //let newUrl = country ? `${url}/countries/${country}` : url;
     try {
         const {data: {data}} = await axios.get(url);
+
         return data;
     } catch (e) {
         return e;
