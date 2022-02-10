@@ -11,7 +11,7 @@
     "d3-fetch": "^1.2.0",
     "d3-scale": "^3.2.1",
     "mdbreact": "^4.27.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "prop-types": "latest",
     "react": "^16.13.1",
     "react-chartjs-2": "^2.9.0",
